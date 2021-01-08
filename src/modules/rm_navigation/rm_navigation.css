@@ -1,0 +1,41 @@
+.rm-navigation {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  background-color: #282c34;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.rm-navigation .rm-navigation-logo {
+  display: inline-block;
+  width: 180px;
+  height: 80px;
+  transform: translate(10px, 0);
+}
+.rm-navigation .rm-navigation-logo img {
+  width: 80px;
+  height: 80px;
+  animation: logo-spin 4s infinite;
+}
+.rm-navigation .rm-navigation-logo-text {
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  line-height: 82px;
+  float: right;
+  transform: translate(-10px, 0);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+.rm-navigation .rm-navigation-logo-text span {
+  font-weight: 500;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
