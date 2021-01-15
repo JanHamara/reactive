@@ -2,6 +2,8 @@
   height: 80px;
   width: 100vw;
   display: flex;
+  position: fixed;
+  top: 0;
   background-color: #282c34;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
